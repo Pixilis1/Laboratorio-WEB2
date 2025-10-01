@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: end;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.card{
+    border: none;
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boton{
+    color: rgb(0, 153, 255);
+    border-color: rgb(0, 153, 255);
+    border-radius: 10px;
+    width: 100px;
+}

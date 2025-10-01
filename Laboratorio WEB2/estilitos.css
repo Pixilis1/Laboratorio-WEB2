@@ -1,0 +1,46 @@
+
+.contenedor{
+    display: flex;
+    min-height: 100vh;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0  ;
+    left: 0;
+    width: 200px;
+    height: 115vh;
+}
+.cajitas{
+    width: 85%;
+    padding: 8px;
+}
+.rellenar{
+    display: flex;
+    justify-content: center;
+}
+.carousel-container {
+    max-width: 1000px;
+    margin: auto;
+    overflow: visible; /* importante para mostrar los previews */
+    position: relative;
+    padding: 40px ;
+}
+.custom-img {
+    border-radius: 15px;
+    width: 80%; /* deja espacio a los lados */
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform: scale(0.9); /* efecto de “lejos” para los laterales */
+    transition: transform 0.3s;
+}
+.carousel-inner {
+    overflow: visible;
+}
+.boton{
+    border-radius: 50%;
+    width: 50px;
+    background-color: beige;
+}
