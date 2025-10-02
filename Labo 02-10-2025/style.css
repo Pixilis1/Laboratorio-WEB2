@@ -1,0 +1,20 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.contenedor{
+    margin: 10px;
+    border: 5px solid;
+}
+.hija2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hija4{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
